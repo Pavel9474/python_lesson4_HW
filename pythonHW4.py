@@ -28,10 +28,43 @@
 # print(icecream_list_in_storage.difference(icecream_list_in_store))
 # Задача 3. Выведите число π с заданной точностью. Точность выводится в 
 # виде десятичной дроби.
-import math
-numbers_before_comma=int((input("Введите число знаков после запятой ")))
-print(round(math.pi,numbers_before_comma))
+# import math
+# numbers_before_comma=int((input("Введите число знаков после запятой ")))
+# print(round(math.pi,numbers_before_comma))
 # Задача 4*. Даны два файла, в каждом из которых находится 
 # запись многочлена. Найдите сумму данных многочленов.
+# Результат: 8x^2 + 4x + 8
+letter=[]
+first=open('first.txt', encoding='utf8').read().split(' ')
+second=open('second.txt', encoding='utf8').read().split(' ')
+for i,j in zip(first,second):
+    if type(i)==str or type(j)==str:
+        if i.find('^')!=-1 or j.find('^')!=-1:
+            if i[i.find('^')-1]==j[j.find('^')-1] and i[i.find('^')+1]==j[j.find('^')+1]:
+                print(int(i[i.find('^')-2])+int(j[j.find('^')-2]))
+        elif i.find('x')!=-1 or j.find('x')!=-1:
+            if i[i.find('x')]-1=='x' or j[j.find('x')]-1:
+                print(1x)
+                else:
+                print(int(i[i.find('x')]-1)+int)
 
+        
+#             if i.find('^')!=-1:
+#                 for j in i:
+#                     power=i[1+(i.find('^'))]
+#                     mult=i[(i.find('^'))-1]
+#                     print(power)
+                    
+#             else:
+#                 i[i.find('x')-1]
+#                 print(i)
+
+        
+    
+#     if type(i)== int and type(j)==int:
+#         k=i+j
+    
+        
+print(first)
+print(second)
 
