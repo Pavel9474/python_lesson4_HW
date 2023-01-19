@@ -42,29 +42,6 @@ for i,j in zip(first,second):
         if i.find('^')!=-1 or j.find('^')!=-1:
             if i[i.find('^')-1]==j[j.find('^')-1] and i[i.find('^')+1]==j[j.find('^')+1]:
                 print(int(i[i.find('^')-2])+int(j[j.find('^')-2]))
-        elif i.find('x')!=-1 or j.find('x')!=-1:
-            if i[i.find('x')]-1=='x' or j[j.find('x')]-1:
-                print(1x)
-                else:
-                print(int(i[i.find('x')]-1)+int)
-
-        
-#             if i.find('^')!=-1:
-#                 for j in i:
-#                     power=i[1+(i.find('^'))]
-#                     mult=i[(i.find('^'))-1]
-#                     print(power)
-                    
-#             else:
-#                 i[i.find('x')-1]
-#                 print(i)
-
-        
-    
-#     if type(i)== int and type(j)==int:
-#         k=i+j
-    
-        
 print(first)
 print(second)
-
+# не успеваю сделать 4 задачу
